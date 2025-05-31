@@ -1,0 +1,110 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 11px;
+}
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Sans-Serif;
+  color: #fff;
+  text-shadow: 0 1px 2px #000;
+  background-color: #333;
+  background: url('img.jpg') no-repeat;
+  background-size: 105%;
+}
+from {
+  box-shadow: 0 0 10px #000;
+  padding: 30px 20px 35px 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+input {
+  padding: 0.5em 1em;
+  border: 0;
+  background-color: transparent;
+  color: #fff;
+  font-size: 1.2em;
+  width: 220px;
+}
+input focus {
+  outline: 0;
+}
+fieldsed {
+  padding: 0;
+  border: 2px solid #fff;
+  border-radius: 4px;
+}
+fieldsed focus within {
+  border-color: #b02727;
+}
+legend {
+  margin-left: 0.75em;
+  padding-inline: 0.5em;
+  font-size: 1.25em;
+}
+div {
+  padding: 0.5em 1em;
+  border: 0;
+  background-color: transparent;
+  color: #fff;
+  font-size: 1.2em;
+  width: 220px;
+}
+button {
+  height: 38px;
+  width: 220px;
+  font-size: 17px;
+  background-color: #fff;
+  color: #000;
+  font-family:sans-serif;
+  text-spacing-trim: 2px;
+}
+div {
+  height: 50px;
+  width: 220px;
+  left: 40px;
+  font-size: 28px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-style: oblique;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-shadow: 5px 3px 6px #959595;
+}
+button-2 {
+  border: 1px solid #fff;
+  height: 50px;
+  width: 220px;
+  font-size: 15px;
+  background-color: transparent;
+  color: #ffffff;
+  font-family: sans-serif;
+  text-spacing-trim: 2px;
+  padding: 0.1em 1em;
+  margin-left: -0%;
+  text-shadow: none;
+  font-style: normal;
+  border: 1px #fff;
+}
+button-3 {
+  border: 1px solid #fff;
+  border-color: #ffffff;
+  height: 50px;
+  width: 220px;
+  font-size: 15px;
+  background-color: transparent;
+  color: #ffffff;
+  font-family: sans-serif;
+  text-spacing-trim: 2px;
+  border: 1px;
+  text-shadow: none;
+  text-align: center;
+  font-style: normal;
+  margin-left: 13%;
+}
